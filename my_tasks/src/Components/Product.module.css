@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.main {
+  padding: 20px;
+}
+
+.FormGroup {
+  margin-bottom: 15px;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+}
+@media screen and (max-width: 480px) {
+  .form {
+    width: 90%;
+  }
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: rgb(183, 18, 18);
+  color: #c55252;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 20px 27px;
+  background-color: aliceblue;
+}
+
+.styled-table tbody tr {
+  border-bottom: 3px solid #822a2a;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: rgb(235, 0, 47);
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #a10d0d;
+}
+.btn {
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 4px 2px;
+}
